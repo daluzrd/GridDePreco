@@ -1,0 +1,142 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(218, 22%, 67%);
+    color: hsl(204, 43%, 93%);
+}
+
+.box {
+    background-color: #FEFEFE;
+    width: 800px;
+    height: 380px;
+    margin: auto;
+}
+
+.descricao {
+    height: 210px;
+    display: block;
+    line-height: 2rem;
+    color: lightgray;
+    padding: 30px;
+}
+
+.descricao h3 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: hsl(179, 62%, 43%);
+}
+
+.descricao h6 {
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: hsl(71, 73%, 54%);
+    margin-top: 1rem;
+}
+
+.inscricao {
+    width: 340px;
+    height: 250px;
+    background-color: hsl(179, 62%, 43%);
+    float: left;
+    color: #FEFEFE;
+    padding: 30px;
+}
+
+.valor {
+    font-weight: bold;
+    font-size: 2rem;
+    float: left;
+    margin-right: 10px;
+}
+
+.descricao-valor {
+    vertical-align: middle;
+}
+
+.inscricao p {
+    line-height: 2.5rem;
+}
+
+.inscricao h5 {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.inscricao button {
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    color: #FEFEFE;
+    border: none;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    box-shadow: 1px #000000;
+    margin-top: 2rem;
+    transition: 400ms;
+}
+
+.inscricao button:hover {
+    background-color: hsl(71, 73%, 45%);
+}
+
+.porque-nos {
+    width: 340px;
+    height: 250px;
+    background-color: hsl(179, 62%, 55%);
+    float: right;
+    color: #FEFEFE;
+    padding: 30px;
+}
+
+.porque-nos h5 {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.porque-nos li {
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        margin: 0;
+    }
+    .inscricao {
+        margin-top: 25px;
+    }
+    .porque-nos {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #FEFEFE;
+    }
+    .box {
+        width: 100%;
+    }
+    .descricao {
+        width: 100%;
+        height: auto;
+    }
+    .inscricao {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .porque-nos {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
